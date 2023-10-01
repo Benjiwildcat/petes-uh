@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
+import Apply from "./components/pages/Apply";
 import Checkout from "./components/pages/Checkout";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/locations" element={<Locations />} />
         <Route path="/order" element={<Order />} />
+        <Route path="/apply" element={<Apply />} />
       </Routes>
     </BrowserRouter>
   );
