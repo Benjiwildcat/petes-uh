@@ -18,7 +18,7 @@ function App() {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/locations" element={<Locations />} />
         <Route path="/order" element={<Order />} />
-        <Route path="/order" element={<Apply />} />
+        <Route path="/apply" element={<Apply />} />
       </Routes>
     </BrowserRouter>
   );
