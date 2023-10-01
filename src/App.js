@@ -6,6 +6,7 @@ import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
 import Locations from "./components/pages/Locations";
 import Order from "./components/pages/Order";
+import ErrorPage from "./components/pages/ErrorPage";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/checkout" element={<Checkout />} />
-        <Route path="/Locations" element={<Locations />} />
+        <Route path="/locations" element={<Locations />} />
         <Route path="/order" element={<Order />} />
       </Routes>
     </BrowserRouter>
