@@ -19,6 +19,7 @@ function App() {
         <Route path="/locations" element={<Locations />} />
         <Route path="/order" element={<Order />} />
         <Route path="/apply" element={<Apply />} />
+        <Route path="/error" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   );
